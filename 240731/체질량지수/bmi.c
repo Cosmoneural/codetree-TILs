@@ -18,7 +18,8 @@ int main() {
     
     printf("%d", c);
 
-    if(c>=25);
+    if(c>=25){
     printf("\nObesity");
+    }
     return 0;
 }

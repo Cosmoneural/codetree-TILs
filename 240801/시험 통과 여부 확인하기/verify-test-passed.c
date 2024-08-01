@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a<70){printf("70");}
+    if(a<70){printf("16 more score");}
     else{printf("pass");}
     return 0;
 }

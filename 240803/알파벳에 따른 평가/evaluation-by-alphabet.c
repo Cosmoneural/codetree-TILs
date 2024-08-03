@@ -16,7 +16,7 @@ int main() {
     } else if(a=='D') {
         printf("Effort");
     } else {
-        printf("failure");
+        printf("Failure");
     }
     return 0;
 }

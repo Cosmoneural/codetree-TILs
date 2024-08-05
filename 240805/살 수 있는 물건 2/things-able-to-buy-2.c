@@ -8,7 +8,10 @@ int main() {
     printf("book");
     }else if(1000>=a){
     printf("mask");
-    }else{
+    }else if(500>=a){
+    printf("pen");
+    }
+    else{
     printf("no");
     }
     return 0;

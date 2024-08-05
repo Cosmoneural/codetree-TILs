@@ -6,9 +6,9 @@ int main() {
     scanf("%d",&a);
     if(a>=3000){
     printf("book");
-    }else if(1000>=a){
+    }else if(a>=1000){
     printf("mask");
-    }else if(500>=a){
+    }else if(a>500){
     printf("pen");
     }
     else{

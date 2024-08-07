@@ -4,39 +4,11 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int a,b;
     scanf("%d",&a,&b);
-
-    if(a>=b){
-        printf("1\n");
-    } else {
-        printf("0\n");
-    }
-
-    if(a>b){
-        printf("1\n");
-    } else {
-        printf("0\n");
-    }
-    if(b>=a){
-        printf("1\n");
-    } else {
-        printf("0\n");
-    }
-    if(a<b){
-        printf("1\n");
-    } else {
-        printf("0\n");
-    }
-
-        if(a==b){
-        printf("1\n");
-    } else {
-        printf("0\n");
-    }
-
-        if(a!=b){
-        printf("1\n");
-    } else {
-        printf("0\n");
-    }
+    printf("%d",a>=b);
+    printf("\n%d",a>b);
+    printf("\n%d",b>=a);
+    printf("\n%d",b>a);
+    printf("\n%d",a==b);
+    printf("\n%d",a!=b);
     return 0;
 }

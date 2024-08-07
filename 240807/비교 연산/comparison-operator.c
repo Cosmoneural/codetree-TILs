@@ -3,12 +3,13 @@
 int main() {
     // 여기에 코드를 작성해주세요.
     int a,b;
-    scanf("%d",&a,&b);
-    printf("%d",a>=b);
-    printf("\n%d",a>b);
-    printf("\n%d",b>=a);
-    printf("\n%d",b>a);
-    printf("\n%d",a==b);
-    printf("\n%d",a!=b);
+    scanf("%d %d",&a,&b);
+
+    printf("%d",a>=b); //ok
+    printf("\n%d",a>b); //ok
+    printf("\n%d",b>=a); //ok
+    printf("\n%d",b>a); // ok
+    printf("\n%d",a==b); //ok
+    printf("\n%d",a!=b); //ok
     return 0;
 }

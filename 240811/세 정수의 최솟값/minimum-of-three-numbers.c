@@ -15,13 +15,11 @@ int main() {
         min = a;
     }
 
-    if(b>=c && b<=c) {
+    if(b>=c) {
         //printf("1\n");
-        if(b>=c) {
-            min = c;
-        } else {
-            min = b;
-        }
+        min = c;
+    } else {
+        min = b;
     }
 
     printf("%d", min);

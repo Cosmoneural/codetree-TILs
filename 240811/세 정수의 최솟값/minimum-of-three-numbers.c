@@ -18,7 +18,7 @@ int main() {
         min = a;
     }
 
-    if(b>=c && a>=c) {
+    if(b<=c && a<=c) {
         printf("5\n");
         min = c;
     } else {

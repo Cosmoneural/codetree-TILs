@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d %d",&a,&b,&c);
     if(a>=b && a<=c) {
         //printf("1\n");
-        if(b>=c) {
+        if(b<=c) {
             min = c;
         } else {
             min = b;

@@ -8,7 +8,7 @@ int main() {
         min = b;
     }else if(b>a && a<c){
         min = a;
-    }else{
+    }else if(a>c && c<b){
         min = c;
     }
     printf("%d", min);

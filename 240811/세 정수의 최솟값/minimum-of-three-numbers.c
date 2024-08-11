@@ -5,20 +5,24 @@ int main() {
     int a,b,c,min;
     scanf("%d %d %d",&a,&b,&c);
     if(a>=b && a<=c) {
-        //printf("1\n");
+        printf("1\n");
         if(b>=c) {
+            printf("2\n");
             min = c;
         } else {
+            printf("3\n");
             min = b;
         }
     } else {
+        printf("4\n");
         min = a;
     }
 
     if(b>=c && a>=c) {
-        //printf("1\n");
+        printf("5\n");
         min = c;
     } else {
+        printf("6\n");
         min = b;
     }
 

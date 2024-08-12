@@ -13,7 +13,7 @@ int main() {
     }
     
     if(m>=9 && m<=11){
-        printf("fall");
+        printf("Fall");
     }
     
     if(m==12 || m<=2){

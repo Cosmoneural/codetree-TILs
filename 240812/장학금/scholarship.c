@@ -4,7 +4,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int a,b;
     scanf("%d",&a,&b);
-    if(a>90){
+    if(a>=90){
         if(a>=95){
             printf("100000");
         }else if(a>=90){

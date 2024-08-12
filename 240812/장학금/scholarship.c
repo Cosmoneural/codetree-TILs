@@ -5,9 +5,9 @@ int main() {
     int a,b;
     scanf("%d",&a,&b);
     if(a>=90){
-        if(a>=95){
+        if(b>=95){
             printf("100000");
-        }else if(a>=90){
+        }else if(b>=90){
             printf("50000");
         }
     }else{

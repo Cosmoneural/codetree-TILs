@@ -9,7 +9,7 @@ int main() {
         if(b>=95){
             printf("100000");
         }
-        
+        else
         if(b>=90){
             printf("50000");
         }

@@ -5,7 +5,7 @@ int main() {
     int m;
     scanf("%d",&m);
     if(m>=3 && m<=5){
-        printf("spring");
+        printf("Spring");
     }
     
     if(m>=6 && m<=8){

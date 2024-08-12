@@ -5,7 +5,6 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>=90){
-        //printf("ll");
         if(b>=95){
             printf("100000");
         }else if(b>=90){

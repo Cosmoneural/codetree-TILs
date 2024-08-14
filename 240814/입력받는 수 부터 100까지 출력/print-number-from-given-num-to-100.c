@@ -2,8 +2,10 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    for(int n=98;n<101;n++){
-        printf("%d ",n);
+    int n;
+    scanf("%d",&n);
+    for(int i=n;i<101;i++){
+        printf("%d ",i);
     }
     return 0;
 }

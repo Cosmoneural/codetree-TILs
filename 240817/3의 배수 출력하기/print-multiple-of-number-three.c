@@ -7,7 +7,7 @@ int main() {
     scanf("%d",&n);
     while(i<n+1){
         printf("%d ", i);
-        i = i + 3;
+        i += 3;
     }
     return 0;
 }

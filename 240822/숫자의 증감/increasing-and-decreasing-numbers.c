@@ -9,7 +9,7 @@ int main() {
             printf("%d ",i);
         }
     }if(a=='D'){
-        for(int i=1;i<=b;i++){
+        for(int i = 1;i >= b;i++){
             printf("%d ",i);
         }
     }

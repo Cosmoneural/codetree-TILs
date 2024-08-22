@@ -9,8 +9,8 @@ int main() {
             printf("%d ",i);
         }
     }if(a=='D'){
-        for(int b;b>=1;b--){
-            printf("%d ",b);
+        for(int i=b;i>=1;i--){
+            printf("%d ",i);
         }
     }
     return 0;

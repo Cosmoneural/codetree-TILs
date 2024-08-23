@@ -7,7 +7,7 @@ int main() {
     printf("%d.",a/b);
 
     int r = a%b;
-    for(int i=0;i<21;i++){
+    for(int i=0;i<20;i++){
         r = r*10; //r+=10;
         printf("%d", r/b);
         r = r%b;

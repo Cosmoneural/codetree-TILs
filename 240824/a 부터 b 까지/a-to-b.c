@@ -12,6 +12,7 @@ int main() {
         }else{
             i+=3;
             printf("%d ",i);
+        }if(i>=b){
         }
     }
     return 0;

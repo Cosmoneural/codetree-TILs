@@ -5,7 +5,7 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     printf("%d ",a);
-    for(int i=a;i<b;){
+    for(int i=a;i<b-1;){
         if(i%2==1){
             i*=2;
             printf("%d ",i);

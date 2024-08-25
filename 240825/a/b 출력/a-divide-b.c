@@ -11,7 +11,7 @@ int main() {
     for(int i=0;i<20;i++){
         printf("%d",c/b);
         c=a*10;
-        c=a%10;
+        c=a%b;
     }
     return 0;
 }

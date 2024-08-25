@@ -5,15 +5,18 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     printf("%d ",a);
-    for(int i=a;i<=b-2;){
+    for(int i=a;i<=b;){
+
+        
         if(i%2==1){
             i*=2;
+            if(i<=b){
             printf("%d ",i);
+            }
         }else{
             i+=3;
-            printf("%d ",i);
-        }if(i>=b){
-            
+            if(i<=b){
+            printf("%d ",i);}
         }
     }
     return 0;

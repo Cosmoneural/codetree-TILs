@@ -10,8 +10,8 @@ int main() {
     c=c*10;
     for(int i=0;i<20;i++){
         printf("%d",c/b);
-        c=a*10;
-        c=a%b;
+        c*=10;
+        c%=b;
     }
     return 0;
 }

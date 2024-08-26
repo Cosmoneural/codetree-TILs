@@ -7,13 +7,14 @@ int main() {
     int cnt=0,cnt2=0,cnt3=0;
     int i=1;
     while(i<=n){
-        if(i%2==0){
-            cnt++;
+        if(i%12==0){
+            cnt3++;
         }if(i%3==0){
             cnt2++;
-        }if(i%12==0){
-            cnt3++;
-        }i++;
+        }if(i%2==0){
+            cnt++;
+        }
+        i++;
     }printf("%d %d %d",cnt,cnt2,cnt3);
     return 0;
 }

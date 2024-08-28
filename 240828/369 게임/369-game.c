@@ -9,9 +9,9 @@ int main() {
         int digit=i%10;
         if(digit==3 || digit==6 || digit==9){
             printf("0 ");
-        }else{
-            printf("%d ",i);
-        }digit/=10;
+        } else {printf("%d ",i);}
+        digit=i/10;
+            
         i++;
     }
     return 0;

@@ -1,17 +1,24 @@
 #include <stdio.h>
 
+int contains_3_6_9(int number) {
+    while (number > 0) {
+        int digit = number % 10;
+        if (digit == 3 || digit == 6 || digit == 9) {
+            return 1;
+        }
+        number /= 10;
+    }
+    return 0; 
+}
+
 int main() {
-    // 여기에 코드를 작성해주세요.
     int a;
-    scanf("%d",&a);
-    for(int i=1;i<=a;i++){
-        int digit=i%10;
-        if((digit==3 || digit==6 || digit==9)|| digit%3==0){
-            printf("0 ");
-        }else if(i/10==3 || i/10==6 || i/10==9){
-            printf("0 ");
-        }else{
-            printf("%d ",i);
+    scanf("%d", &a);
+    for (int i = 1; i <= a; i++) {
+        if (i % 3 == 0 || contains_3_6_9(i)) {
+            printf("%d ", 0);
+        } else {
+            printf("%d ", i);
         }
     }
     return 0;

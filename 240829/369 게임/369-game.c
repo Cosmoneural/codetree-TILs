@@ -8,6 +8,8 @@ int main() {
         int digit=i%10;
         if((digit==3 || digit==6 || digit==9)|| digit%3==0){
             printf("0 ");
+        }else if(i/10==3 || i/10==6 || i/10==9){
+            printf("0 ");
         }else{
             printf("%d ",i);
         }

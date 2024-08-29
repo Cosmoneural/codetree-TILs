@@ -1,25 +1,20 @@
 #include <stdio.h>
 
-int contains_3_6_9(int number) {
-    while (number > 0) {
-        int digit = number % 10;
-        if (digit == 3 || digit == 6 || digit == 9) {
-            return 1;
+int main(){
+    int n;
+	scanf("%d", &n);
+	for(int i = 1; i <= n; i++) {
+        int r=i%10;
+		if(i % 3 == 0){
+			printf("0 ");}
+		else if(r== 3 || r == 6 || r == 9){
+			printf("0 ");}
+		else if(i / 10 == 3 || i / 10 == 6 || i / 10 == 9){
+			printf("0 ");
         }
-        number /= 10;
+		else{
+			printf("%d ", i);}
     }
-    return 0; 
-}
-
-int main() {
-    int a;
-    scanf("%d", &a);
-    for (int i = 1; i <= a; i++) {
-        if (i % 3 == 0 || contains_3_6_9(i)) {
-            printf("%d ", 0);
-        } else {
-            printf("%d ", i);
-        }
-    }
+  
     return 0;
 }

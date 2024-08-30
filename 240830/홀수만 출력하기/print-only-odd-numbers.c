@@ -4,7 +4,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int n;
     while(scanf("%d",&n)==1){
-        if(n%2==1 && n%3==0){
+        if(n%2!=0 && n%3==0){
             printf("%d\n",n);
         }
     }

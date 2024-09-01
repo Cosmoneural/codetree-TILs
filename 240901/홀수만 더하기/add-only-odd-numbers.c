@@ -2,7 +2,7 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    int n,a;
+    int a,n;
     scanf("%d",&a);
     int i=1;
     int sum=0;

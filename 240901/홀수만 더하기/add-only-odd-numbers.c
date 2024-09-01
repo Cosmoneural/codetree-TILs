@@ -8,7 +8,7 @@ int main() {
     int sum=0;
     while(i<=a){
         scanf("%d",&n);
-        if(i%2==1 && i%3==0){
+        if(n%2==1 && n%3==0){
             sum=sum+1;
         }i++;
     }printf("%d",sum);

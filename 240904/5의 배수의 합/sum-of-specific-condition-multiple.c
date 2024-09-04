@@ -6,19 +6,18 @@ int main() {
     scanf("%d %d",&a,&b);
     int sum=0;
     if(a<=b){
-        int i=a;
-        while(i<=b){
-            if(i%5==0){
-                sum+=i;
-            }i++;
-        }
-    }else if (b<=a){
-        int i=b;
-        while(i<=a){
+        for(int i=a;i<=b;i++){
             if(i%5==0){
                 sum+=i;
             }
-        }i++;
+        }
+    }else if (b<=a){
+        int i=b;
+        for(int i=b;i<=a;i++){
+            if(i%5==0){
+                sum+=i;
+            }
+        }
     }printf("%d",sum);
     return 0;
 }

@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream> //#include <stdio.h>
 using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    cout << "Hello";
+    cout<<"Hello";
     return 0;
 }

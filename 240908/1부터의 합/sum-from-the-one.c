@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // 여기에 코드를 작성해주세요.
+    int n;
+    scanf("%d",&n);
+    int s=0;
+    int i=1;
+    while(i<=100){
+        s+=i;
+        if(s>=n){
+            break;
+        }i++;
+    }printf("%d",i);
+    return 0;
+}

@@ -7,11 +7,10 @@ int main() {
     while(1){
         scanf("%d",&n);
         if(n%2==0){
-            printf("%d\n",n/2);
+            if(cnt>=4){
+                break;
+            }printf("%d\n",n/2);
         }cnt++;
-        if(cnt==4){
-            break;
-        }
     }
     return 0;
 }

@@ -7,7 +7,7 @@ int main() {
     int sum=0;
     while(1){
         scanf("%d\n",&n);
-        if(19<=n && 30<=n){
+        if(19<=n && n>=30){
             break;
         }cnt++;
         sum+=n;

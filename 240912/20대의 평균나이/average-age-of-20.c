@@ -11,7 +11,9 @@ int main() {
             break;
         }cnt++;
         sum+=n;
-    }double r=(double)sum/cnt;
+    }if(cnt>0){
+    double r=(double)sum/cnt;
     printf("%.2lf",r);
+    }
     return 0;
 }

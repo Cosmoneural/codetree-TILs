@@ -8,11 +8,11 @@ int main() {
     while(1){
         if(n>=1000){
             break;
-        }if(n%2==0){
+        }else if(n%2==0){
             n*=3;
             n+=1;
             cnt++;
-        }if(n%2==1){
+        }else if(n%2==1){
             n*=2;
             n+=2;
             cnt++;

@@ -6,8 +6,9 @@ int main() {
     scanf("%d",&a);
     bool ljkoa=true;
     for(int i=1;i<=a;i++){
-        if(a%i==0 && a%1==0){
+        if(a%i==0){
             ljkoa=false;
+            break;
         }
     }if(ljkoa==true){
         printf("C");

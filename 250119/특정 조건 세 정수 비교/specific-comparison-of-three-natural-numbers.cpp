@@ -5,11 +5,11 @@ int main() {
     // Please write your code here.
     int a,b,c;
     cin>>a>>b>>c;
-    if(b>c && a==c){
+    if(b>=c && a==c){
         cout<<"1";
-    }else if(c>b && a==b){
+    }else if(c>=b && a==b){
         cout<<"1";
-    }else if(a<b && a<c){
+    }else if(a=<b && a=<c){
         cout<<"1";
     }
     else{

@@ -12,8 +12,10 @@ int main() {
             cout<<"B"<<" ";
         }else if(i>=70){
             cout<<"C"<<" ";
-        }else{
+        }else if(i>=60){
             cout<<"D"<<" ";
+        }else{
+            cout<<"F"<<" ";
         }
     }
     return 0;

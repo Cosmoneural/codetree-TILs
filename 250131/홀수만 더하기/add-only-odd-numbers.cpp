@@ -10,7 +10,7 @@ int main() {
         int n;
         cin>>n;
         if(n%2==1 && n%3==0){
-            sum+=a;
+            sum+=n;
         }
     }cout<<sum;
     return 0;

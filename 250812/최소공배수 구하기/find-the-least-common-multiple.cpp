@@ -2,7 +2,7 @@
 using namespace std;
 
 void mashle(int a,int b){
-    int one=1;
+    int one=0;
     while(true){
         one++;
         if((a*one)%b==0){

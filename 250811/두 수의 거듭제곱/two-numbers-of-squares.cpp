@@ -4,9 +4,10 @@ using namespace std;
 
 int dndododdooododdodod(int a,int b){
     int yee=a;
-    for(int i=a;i<=b+1;i++){
+    for(int i=1;i<b;i++){
         yee=yee*a;
-    }return yee;
+    }
+    return yee;
 }
 
 int main() {
